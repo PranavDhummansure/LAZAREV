@@ -12,7 +12,7 @@ body {
     width: 100%;
 }
 #main{
-    background-color: #111111;
+    background-color: #ffffff;
 }
 
 nav {
@@ -20,7 +20,7 @@ nav {
     /* background-color: rgb(0, 255, 68); */
     display: flex;
     align-items: flex-start;
-    height: 12vh;
+    height: 17vh;
     width: 100%;
     padding: 2vw 10.4vw;
     justify-content: space-between;
@@ -34,7 +34,7 @@ nav h1 {
 
 .nav-part2 {
     display: flex;
-    gap: 2vw;
+    gap: 1vw;
     align-items: flex-start;
     padding: 1vh 0;
     position: relative;
@@ -42,10 +42,11 @@ nav h1 {
 }
 
 .nav-part2 h4 {
-    font-size: 0.73vw;
+    font-size: 1.7vh;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight:800;
     margin-bottom: 2.6vw;
+    
 }
 
 .nav-part2 h5 {
@@ -89,8 +90,23 @@ nav button svg {
     z-index: 9;
     border-bottom: 1px solid #fff;
 }
-#page1{
-    min-height: 100vh;
+h5 .green:hover {
+    color: #296A35;
+}
+h5 .green:hover {
+    color: #296A35;
+    
+}
+h4 .green:hover {
+    color: #296A35;
+    
+}
+ .grey:hover  {
+    color: #6e726e;
+    
+}
+#page1{ 
+    min-height: 80vh;
     width: 100%;
     background-color: #111111;
     position: relative;
@@ -108,7 +124,7 @@ nav button svg {
    
 }
 #page1 .boxs {
-    padding: 5vh 9vw;
+    padding: 10vh 9vw;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -125,6 +141,8 @@ nav button svg {
    display: flex;
    align-items: center;
    justify-content: center;
+   font-size: 1.2vw;
+   font-weight: 900;
 }
 .imgs img {
     height: 5vh;
@@ -133,7 +151,7 @@ nav button svg {
     object-fit: cover;  
 }
 .alltext {
-    margin-top: 10vh;
+    margin-top: 1vh;
     text-align: center;
 }
 .alltext h1 {
@@ -161,7 +179,7 @@ nav button svg {
    color: #0D9B4B;
    font-size: 1.5vw;
 }
-#page1 video {
+#page2 video {
     height: 18%;
     width: 70%;
     margin-left: 15vw;
@@ -429,7 +447,10 @@ nav button svg {
 .page4left{
     border-top: 2px solid white;
     width: 20%;
-    padding: 2vh ;
+    margin-top: -144vh ;
+    position: static;
+    position: sticky;
+    top:10%;
 
 }
 .page4left svg {
@@ -485,7 +506,9 @@ nav button svg {
 .page4left2{
     border-top: 2px solid white;
     width: 20%;
-    padding: 2vh ;
+    margin-top: -144vh ;
+    position: sticky;
+    top:10%;
 
 }
 .page4left2 svg {
@@ -541,7 +564,9 @@ nav button svg {
 .page4left3{
     border-top: 2px solid white;
     width: 20%;
-    padding: 2vh ;
+    margin-top: -144vh ;
+    position: sticky;
+    top:10%;
 
 }
 .page4left3 svg {
@@ -604,7 +629,7 @@ nav button svg {
     border-radius: 50px;
     border: none;
     position: sticky;
-    top: 15%;
+    top: 55%;
 }
 
 #page5-right {

@@ -89,6 +89,7 @@ function loadingAnimation() {
         duration: 0.2,
         delay: 0.2
     })
+    
     tl.from("#page1", {
         transform: "scaleX(0.7) scaleY(0.2) translateY(80%)",
         borderRadius: "150px",
@@ -99,10 +100,12 @@ function loadingAnimation() {
         opacity: 0,
         delay: -0.2
     })
-    tl.from("#page1 .boxs, #page1 #last, #page1 .alltext", {
+    tl.from("#page1 .boxs, #page1 #last, #page1 .alltext",{
         opacity: 0,
-        duration: 0.5,
-        stagger: 0.2
+        duration: 2,
+        
+        stagger: 0.3,
+       
     })
 }
 
@@ -156,3 +159,12 @@ function page7Animation() {
 }
 
 page7Animation()
+
+var tl2 = gsap.timeline()
+tl2.from("#page2", {
+    opacity: 0,
+    duration: 0.1,
+    delay:2
+  
+})
+
